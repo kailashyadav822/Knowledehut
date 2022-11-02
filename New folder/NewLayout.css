@@ -1,0 +1,341 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+header{
+	background-image:url("photo/theme.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	padding-bottom: auto;
+}
+.top{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 2px solid gray;
+	padding: 10px 55px;
+
+}	
+.left{
+	display: flex;
+
+}
+.logo{
+	display: flex;
+	justify-content: space-between;
+	/*margin-left: 70px;*/
+	width: 90%;
+	margin: 0 auto;
+}
+.logo ul{
+	margin-top: 20px;
+	/*margin-left: 450px;*/
+}
+.logo li{
+	list-style: none;
+}
+.logo a{
+	text-decoration: none;
+	padding: 15px;
+	color: white;
+}
+.logo img{
+	width: 200px;
+}
+.left{
+	color: white;
+	/*margin-top: 20px;*/
+	/*margin-right: 500px;*/
+}
+.left p{
+	padding: 0 15px;
+}
+.right p{
+	/*padding-top:30px;*/
+	font-size: 20px;
+	
+}
+.right p a{
+	padding: 10px;
+	color: white;
+}
+.logo{
+	margin-top: 30px;
+}
+.logo h1 {
+	margin-top: 20px;
+	color: white;
+	font-weight: 700;
+}
+.logo h2{
+	margin-top: 20px;
+	color: white;
+	font-weight: 700;
+}
+.logo p{
+	margin-top: 20px;
+	color: white;
+	font-weight: 700;
+	width: 300px;
+
+
+}
+.ankar{
+	margin-top: 30px;
+	display: inline-block;
+	background-color: red;
+	padding: 10px;
+	border-radius: 30px;
+}
+section{
+	display: flex;
+	padding: 80px;
+	background-color: white;
+}
+section a{
+	text-decoration: none;
+	background-color: red;
+	padding: 15px 25px;
+	border-radius: 70px;
+	color: white;
+	display: inline-block;
+	margin-top: 20px;
+}
+.sleft{
+	width: 50%;
+	padding: 30px;
+}
+.sleft h2{
+	color: gray;
+	margin-bottom: 10px;
+
+}
+.sleft p{
+	font-weight: 700;
+	color: gray;
+	width: 80%;
+	margin-top: 10px;
+}
+
+.simg{
+      width: 50%;
+}
+.simg img{
+	width: 100%;
+	padding-right: 20px;
+}
+.call{
+	text-align: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	width: 100%;
+	padding-top: 200px;
+	color: white;
+	font-weight: 700;
+	background-image: url("photo/maestropizzini-freedelivery-bg.jpg");
+	background-size: cover;
+	height: 100vh;
+	background-position: 50% 50%;
+}
+.bg{
+	padding-top: 200px;
+	height: 80vh;
+	text-align: center;
+	color: white;
+}
+.bg h1{
+	padding: 20px 0;
+
+}
+.bg a{
+	text-decoration: none;
+	padding: 15px 30px;
+	background-color: red;
+	border-radius: 30px;
+	color: white;
+	display: inline-block;
+	margin-top: 15px;
+	font-weight: 700;
+}
+.imges{
+	width: 50%;
+}
+.imges img{
+	width: 100%;
+}
+.pizamenu{
+	display: flex;
+	padding: 40px 70PX;
+	background-color: white;
+}
+.hpara{
+	width: 50%;
+	padding-left: 40px;
+
+}
+.hpara h2{
+	margin-bottom: 20px;
+	color: gray;
+}
+.hpara p{
+	margin-top: 20px;
+	font-weight: 600;
+	color: gray;
+}
+.hpara a{
+	text-decoration: none;
+	background-color: red;
+	padding: 10px 30px;
+	margin-top: 20px;
+	display: inline-block;
+	border-radius: 30px;
+	color: white;
+}
+.number{
+	display: flex;
+	background-color:black;
+	color: white;
+	text-align: center;
+	justify-content: space-around;
+	padding: 100px;
+}
+.number p{
+	color: gray;
+}
+.Deliveryman{
+	display: flex;
+}
+.Deliveryman{
+	
+	background: url("photo/maestropizzini-contact-bg.jpg");
+	background-size: cover;
+	height: auto;
+}
+
+.pizzanow{
+	padding-left: 40px;
+	width: 46%;
+	padding: 30px; 
+}
+.pizzanow input{
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid gray;
+	border-radius: 30px;
+
+}
+.pizzanow input:nth-of-type(3){
+	width: 69%;
+}
+.pizzanow input:nth-of-type(6){
+	width: 69%;
+}
+.pizzanow h2{
+	color: gray;
+	margin-bottom: 20px;
+}
+.pizzanow p{
+	color: gray;
+	margin:10px auto ;
+}
+.pizzanow a{
+	text-decoration: none;
+	background-color: red;
+	padding: 5px 200px;
+	display: inline-block;
+	border-radius: 30px;
+	color: white;
+	margin-bottom: 40px;
+
+}
+#section2{
+	background-color: #333;
+}
+.pizzamenu{
+	text-align: center;
+	color: white;
+	padding: 100px 0;
+}
+.lowpizza{
+	display: flex;
+	align-items: center;
+	margin: 0 100px;
+	color: white;
+	border-top: 1px dashed; white;
+}
+.lowpizza img{
+	width: 50%;
+	margin-left: 100px;
+}
+.lowpizza p{
+	width: 80%;
+}
+.lastmenu{
+	display: flex;
+	text-align: center;
+	/*width: 80%;*/
+	justify-content: space-around;
+
+}
+.lastmenu img {
+	width: 50%;
+}
+.lastmenu p{
+	width: 50%;
+	margin: 10px auto;
+
+}
+.background{
+	background-color:white;
+	padding: 50px;
+}
+.lastmenubig{
+	text-align: center;
+	padding: 100px;
+
+}
+footer{
+	display: flex;
+	padding: 50px;
+	background-color:black;
+}
+.footerabout{
+	display: flex;
+	color: white;
+}
+.footerabout a{
+	text-decoration: none;
+	display: inline-block;
+	width: 80%;
+	color: gray;
+	padding: 05px;
+
+}
+.footerabout a:hover{
+	color: red;
+	transition:all 0.5s;
+}
+
+.footerabout ul{
+	padding-top: 20px;
+}
+.footerleft{
+	color: white;
+}
+.footerleft p{
+	width: 70%;
+	padding: 30px 0;
+	color: gray;
+}
+.footerleft span{
+	color: gray;
+	font-size: 15px;
+}
+.width{
+	width: 80%;
+}
+
